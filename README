@@ -1,0 +1,10 @@
+The automation solution has been developed using Eclipse IDE for Windows with the following plugins from Eclipse Marketplace:
+- Cucumber Eclipse Plugin 1.0.0.202106240526
+- Eclipse Java Development Tools Latest release
+- Natural 0.9
+--------------------------------------------------
+- Automation results are stored in \target\html\Testing Automation Report.html
+
+- com.aequilibrium.features.RunnerTest.java is the file to be configured on Run Configurations
+--------------------------------------------------
+- Exercise 1 is located at \TestCases.txt

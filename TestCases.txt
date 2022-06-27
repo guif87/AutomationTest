@@ -1,0 +1,63 @@
+Automated Tests Cases
+
+LOGIN001 - Validate login screen labels and button
+Description: Access application and validate if labels and buttons are there as expected.
+Expected Result: Username, Password and Login button exists on the application.
+
+LOGIN002 - Successful Login - standard_user
+Description: Login with standard_user into the application.
+Expected Result: User standard_user is able to access the page after login and the content is correct.
+
+LOGIN003 - Successful Login - problem_user
+Description: Login with problem_user into the application.
+Expected Result: User standard_user is able to access the page, however, the content is not correct.
+
+LOGIN004 - Successful Login - performance_glitch_user
+Description: Login with performance_glitch_user into the application.
+Expected Result: User performance_glitch_user is able to access the page, however, there's a performance issue as the application takes some time to load the content page.
+
+LOGIN005 - Unsuccessful Login - empty username
+Description: Try to login without a username into the application.
+Expected Result: Can't login into the system, error message appears "Epic sadface: Username is required"
+
+LOGIN006 - Unsuccessful Login - empty password
+Description: Try to login without a password into the application.
+Expected Result: Can't login into the system, error message appears "Epic sadface: Password is required"
+
+LOGIN007 - Unsuccessful Login - user not in system
+Description: Try to login user not registered into the application.
+Expected Result: Can't login into the system, error message appears "Epic sadface: Username and password do not match any user in this service"
+
+LOGIN008 - Unsuccessful Login - locked_out_user
+Description: Try to login with locked_out_user into the application.
+Expected Result: Can't login into the system, error message appears "Epic sadface: Sorry, this user has been locked out."
+
+----------------------
+Manual Test Cases
+
+LOGIN009 - Validate if username and password have a minimum limit of characters
+LOGIN010 - Validate if username and password have a maximum limit of characters
+LOGIN011 - Validate if user can close the Epic sadface message
+
+LOGIN012 - Unsuccessful Login - any of the registered users with a wrong password
+Description: Try to login with any registered user with a wrong password into the application.
+Expected Result: Can't login into the system, error message appears "Epic sadface: Username and password do not match any user in this service"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
